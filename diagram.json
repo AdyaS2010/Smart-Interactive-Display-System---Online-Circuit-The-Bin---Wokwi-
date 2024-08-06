@@ -49,24 +49,39 @@
       "attrs": {}
     }
   ],
-  "connections": [
+"connections": [
     [ "pico:GP0", "$serialMonitor:RX", "", [] ],
     [ "pico:GP1", "$serialMonitor:TX", "", [] ],
     [ "wokwi-servo-0:GND", "pico:GND.6", "black", [ "h-38.4", "v67.2", "h48" ] ],
-    [ "wokwi-pir-motion-sensor-0:OUT", "pico:GP2", "green", [ "v0" ] ],
+    [ "wokwi-servo-0:VCC", "pico:3V3", "red", [ "h-38.4", "v67.2", "h48" ] ],
+    [ "wokwi-servo-0:SIG", "pico:GP6", "yellow", [ "h-38.4", "v67.2", "h48" ] ],
+    [ "wokwi-pir-motion-sensor-0:VCC", "pico:3V3", "red", [ "v0" ] ],
     [ "wokwi-pir-motion-sensor-0:GND", "pico:GND.1", "black", [ "v0" ] ],
+    [ "wokwi-pir-motion-sensor-0:OUT", "pico:GP2", "green", [ "v0" ] ],
     [ "wokwi-ky-040-0:GND", "pico:GND.2", "black", [ "h0" ] ],
+    [ "wokwi-ky-040-0:VCC", "pico:3V3", "red", [ "h0" ] ],
     [ "wokwi-ky-040-0:CLK", "pico:GP3", "green", [ "h0" ] ],
     [ "wokwi-ky-040-0:DT", "pico:GP4", "green", [ "h0" ] ],
     [ "wokwi-mpu6050-0:GND", "pico:GND.8", "black", [ "v0" ] ],
+    [ "wokwi-mpu6050-0:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "wokwi-mpu6050-0:SCL", "pico:GP21", "green", [ "v0" ] ],
+    [ "wokwi-mpu6050-0:SDA", "pico:GP20", "green", [ "v0" ] ],
     [ "wokwi-neopixel-0:DIN", "pico:GP5", "green", [ "h0" ] ],
+    [ "wokwi-neopixel-0:GND", "pico:GND.3", "black", [ "v0" ] ],
+    [ "wokwi-neopixel-0:VCC", "pico:3V3", "red", [ "v0" ] ],
     [ "wokwi-hc-sr04-0:GND", "pico:GND.3", "black", [ "v0" ] ],
-    [ "wokwi-hc-sr04-0:ECHO", "pico:GP0", "green", [ "v0" ] ],
+    [ "wokwi-hc-sr04-0:VCC", "pico:5V", "red", [ "v0" ] ],
+    [ "wokwi-hc-sr04-0:TRIG", "pico:GP9", "green", [ "v0" ] ],
+    [ "wokwi-hc-sr04-0:ECHO", "pico:GP10", "green", [ "v0" ] ],
     [ "wokwi-max7219-matrix-0:GND", "pico:GND.6", "black", [ "h0" ] ],
+    [ "wokwi-max7219-matrix-0:VCC", "pico:5V", "red", [ "h0" ] ],
     [ "wokwi-max7219-matrix-0:DIN", "pico:GP7", "green", [ "h0" ] ],
+    [ "wokwi-max7219-matrix-0:CS", "pico:GP8", "green", [ "h0" ] ],
+    [ "wokwi-max7219-matrix-0:CLK", "pico:GP11", "green", [ "h0" ] ],
     [ "pico:GND.6", "pico:GND.7", "black", [ "h0" ] ],
     [ "wokwi-relay-module-0:GND", "pico:GND.5", "black", [ "h0" ] ],
+    [ "wokwi-relay-module-0:VCC", "pico:5V", "red", [ "h0" ] ],
     [ "wokwi-relay-module-0:IN", "pico:GP8", "green", [ "h0" ] ]
   ],
-  "dependencies": {}
+  "dependencies": {} 
 }
