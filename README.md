@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The **Smart Interactive Display System** is an advanced setup designed to interact with users through various sensors and actuators. This system detects user presence, measures distance, tracks motion, and provides visual feedback, making it a versatile and engaging display solution.
+The **Smart Interactive Display System** is an advanced setup designed to interact with users through various sensors and actuators. The system detects user presence, measures distance, tracks motion, and provides visual feedback, making it a versatile and engaging display solution!
 
 ## Components Utilized & Their Respective Uses
 
@@ -16,11 +16,11 @@ The **Smart Interactive Display System** is an advanced setup designed to intera
 
 3. **Range Finder (HC-SR04 Ultrasonic Sensor)**
    - **Purpose**: Measures distance.
-   - **Use**: Adjusts the display based on the user's distance, showing different levels of detail.
+   - **Use**: Adjusts the display based on the user's distance, showing different/varying levels of detail.
 
 4. **Accelerometer (MPU6050)**
    - **Purpose**: Detects movement and orientation.
-   - **Use**: Adjusts the display or controls if the system is moved or tilted.
+   - **Use**: Adjusts the display/controls if the system is moved or tilted.
 
 5. **Neopixel LED**
    - **Purpose**: Provides colorful visual feedback.
