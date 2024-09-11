@@ -46,3 +46,8 @@ The **Smart Interactive Display System** is an advanced setup designed to intera
 - **Movement Response**: The accelerometer detects if the system is moved and adjusts the display or controls.
 - **Visual Display**: The LED matrix displays information or graphics, while the servo motor moves parts of the system for better interaction.
 - **Power Control**: The relay module controls power to external devices or parts of the system.
+
+## Wokwi Link
+https://wokwi.com/projects/404877637597005825 
+
+![image](https://github.com/user-attachments/assets/6aeea835-2026-4282-9ea8-59a0508e1f26)
